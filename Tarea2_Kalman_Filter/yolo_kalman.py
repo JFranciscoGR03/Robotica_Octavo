@@ -1,10 +1,10 @@
-"""Airplane Tracking with YOLOv8 and Kalman Filter.
+"""Seguimiento de aviones con YOLOv8 y Filtro de Kalman.
 
-This script performs object detection and tracking of airplanes in a video.
-It uses the YOLOv8 model for detection and a Kalman Filter for multi-object
-tracking. Each detected airplane is assigned a unique ID and tracked across
-frames using IoU (Intersection over Union) for association between detections
-and trackers.
+Este script realiza la detección y el seguimiento de aviones en un video.
+Utiliza el modelo YOLOv8 para la detección y un Filtro de Kalman para el
+seguimiento de múltiples objetos. A cada avión detectado se le asigna un ID
+único y se rastrea a lo largo de los cuadros usando IoU (Intersección sobre
+Unión) para asociar las detecciones con los rastreadores.
 """
 
 import cv2
@@ -104,12 +104,12 @@ def iou(bbox1, bbox2):
 
 
 # Cargar el modelo YOLOv8 preentrenado
-model = YOLO("yolov8m.pt")
+model = YOLO("/home/francisco/robotica_octavo_hsi/tarea2/yolov8m.pt")
 
 # Abrir archivo de video
 cap = cv2.VideoCapture(
     "/home/francisco/robotica_octavo_hsi/Tarea2_Kalman_Filter"
-    "/videos_Prueba/aviones_2.mp4"
+    "/Videos_Prueba/aviones_3.mp4"
 )
 
 trackers = []  # Lista de trackers activos
