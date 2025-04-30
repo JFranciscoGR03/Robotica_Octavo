@@ -119,6 +119,7 @@ pip install opencv-python numpy ultralytics filterpy
 ## 🧠 Estructura del código
 
 La estructura del proyecto es la siguiente:
+
 Tarea2_Kalman_Filter<br>
     ├── Videos_Funcionamiento<br>
        ├── aviones_1.mp4<br>
