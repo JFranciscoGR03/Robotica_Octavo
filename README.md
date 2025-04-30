@@ -120,18 +120,18 @@ pip install opencv-python numpy ultralytics filterpy
 
 La estructura del proyecto es la siguiente:
 ```plaintext
-Tarea2_Kalman_Filter<br>
-   ├── Videos_Funcionamiento<br>
-      ├── aviones_1.mp4<br>
-      ├── aviones_2.mp4<br>
-      ├── aviones_3.mp4<br>
-      ├── aviones_4.mp4<br>
-   ├── Videos_Prueba<br>
-      ├── aviones_1.mp4<br>
-      ├── aviones_2.mp4<br>
-      ├── aviones_3.mp4<br>
-      ├── aviones_4.mp4<br>
-   ├── yolo_kalman.py<br>
+Tarea2_Kalman_Filter
+   ├── Videos_Funcionamiento
+      ├── aviones_1.mp4
+      ├── aviones_2.mp4
+      ├── aviones_3.mp4
+      ├── aviones_4.mp4
+   ├── Videos_Prueba
+      ├── aviones_1.mp4
+      ├── aviones_2.mp4
+      ├── aviones_3.mp4
+      ├── aviones_4.mp4
+   ├── yolo_kalman.py
    ├── yolov8m.pt
 ```
 
