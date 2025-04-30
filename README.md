@@ -179,6 +179,8 @@ cd Tarea2_Kalman_Filter
 
 ### 2. Instalación de dependencias.
 
+Mediante el comando que se encuentra en el apartado de requisitos.
+
 ### 3. Ejecución de código.
 
 Para ejecutar el código y realizar el seguimiento de los aviones en un video, simplemente corre el siguiente comando:
@@ -189,8 +191,8 @@ python yolo_kalman.py
 ### El código realizará lo siguiente:
 
 - Cargará el modelo `yolov8m.pt` de YOLOv8 (si no está presente, se descargará automáticamente).
-- Procesará los videos ubicados en las carpetas `Videos_Prueba/`, dependiendo de lo que se haya configurado en el código. Si deseas cambiar el video que se está procesando, modifica la ruta del archivo de video en el código
-- Detectará los aviones en cada frame del video. Aquí puedes ajustar el umbral de confianza para la detección de objetos en YOLO. Actualmente, está configurado en 0.5 (eliminando detecciones con una confianza inferior a este valor)
+- Procesará los videos ubicados en la carpeta `Videos_Prueba`, dependiendo de lo que se haya configurado en el código.
+- Detectará los aviones en cada frame del video.
 - Aplicará el filtro de Kalman para hacer el seguimiento de los aviones detectados.
 - Mostrará el video procesado con las cajas de seguimiento y las etiquetas de ID de los aviones en una ventana emergente.
 
@@ -200,7 +202,7 @@ Para detener la ejecución y cerrar la ventana del video, espera a que finalice 
 
 ## 🔧 Parámetros configurables
 
-Dentro del código, existen varios parámetros configurables que puedes ajustar según tus necesidades:
+Dentro del código, existen parámetros configurables que puedes ajustar según tus necesidades:
 
 - **`confidence_threshold`**:
   El umbral de confianza para las detecciones de YOLO. Solo las detecciones con una confianza mayor a este valor serán procesadas.
@@ -208,7 +210,7 @@ Dentro del código, existen varios parámetros configurables que puedes ajustar 
   Puedes modificar este valor en el archivo `yolo_kalman.py` según lo necesites.
 
 - **`video_folder`**:
-  La carpeta donde se encuentran los videos que deseas procesar. Puedes elegir cualquiera de los videos dentro de la carpeta `Videos_Prueba`. O modifica la ruta de esta variable en el código si deseas trabajar con otro video.
+  La carpeta donde se encuentran los videos que deseas procesar. Puedes elegir cualquiera de los videos dentro de la carpeta `Videos_Prueba`. O modifica la ruta de esta variable en el código si deseas trabajar con otro video u otra carpeta de videos.
 
 ## ❓ Solución de problemas
 
@@ -221,7 +223,7 @@ Si te encuentras con alguno de los siguientes problemas, aquí tienes algunas po
   Si el video no se puede cargar, asegúrate de que el archivo `.mp4` esté en la carpeta correcta y no esté dañado. Además, verifica que tu instalación de OpenCV sea compatible con el formato de video que estás utilizando.
 
 - **Errores de dependencias**:
-  Si tienes problemas con las bibliotecas, asegúrate de que las versiones de las dependencias sean las correctas. Puedes reinstalar las bibliotecas con los siguientes comandos:
+  Si tienes problemas con las bibliotecas, asegúrate de que las versiones de las dependencias sean las correctas. Puedes reinstalar las bibliotecas con el siguiente comando:
   ```bash
   pip install --upgrade opencv-python numpy ultralytics filterpy
   ```
