@@ -120,18 +120,18 @@ pip install opencv-python numpy ultralytics filterpy
 
 La estructura del proyecto es la siguiente:
 Tarea2_Kalman_Filter<br>
-   ├── Videos_Funcionamiento<br>
-      ├── aviones_1.mp4<br>
-      ├── aviones_2.mp4<br>
-      ├── aviones_3.mp4<br>
-      ├── aviones_4.mp4<br>
-   ├── Videos_Prueba<br>
-      ├── aviones_1.mp4<br>
-      ├── aviones_2.mp4<br>
-      ├── aviones_3.mp4<br>
-      ├── aviones_4.mp4<br>
-   ├── yolo_kalman.py<br>
-   ├── yolov8m.pt
+    ├── Videos_Funcionamiento<br>
+       ├── aviones_1.mp4<br>
+       ├── aviones_2.mp4<br>
+       ├── aviones_3.mp4<br>
+       ├── aviones_4.mp4<br>
+    ├── Videos_Prueba<br>
+       ├── aviones_1.mp4<br>
+       ├── aviones_2.mp4<br>
+       ├── aviones_3.mp4<br>
+       ├── aviones_4.mp4<br>
+    ├── yolo_kalman.py<br>
+    ├── yolov8m.pt
 
 1. **Tarea2_Kalman_Filter**:
    Es la carpeta principal que contiene todos los archivos relacionados con el proyecto.
