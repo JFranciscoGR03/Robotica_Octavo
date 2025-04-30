@@ -119,27 +119,27 @@ pip install opencv-python numpy ultralytics filterpy
 ## 🧠 Estructura del código
 
 La estructura del proyecto es la siguiente:
-Tarea2_Kalman_Filter/
-   ├── Videos_Funcionamiento/
-      ├── aviones_1.mp4/
-      ├── aviones_2.mp4/
-      ├── aviones_3.mp4/
-      ├── aviones_4.mp4/
-   ├── Videos_Prueba/
-      ├── aviones_1.mp4/
-      ├── aviones_2.mp4/
-      ├── aviones_3.mp4/
-      ├── aviones_4.mp4/
-   ├── yolo_kalman.py/
+Tarea2_Kalman_Filter
+   ├── Videos_Funcionamiento
+      ├── aviones_1.mp4
+      ├── aviones_2.mp4
+      ├── aviones_3.mp4
+      ├── aviones_4.mp4
+   ├── Videos_Prueba
+      ├── aviones_1.mp4
+      ├── aviones_2.mp4
+      ├── aviones_3.mp4
+      ├── aviones_4.mp4
+   ├── yolo_kalman.py
    ├── yolov8m.pt
 
-1. **Tarea2_Kalman_Filter/**:
+1. **Tarea2_Kalman_Filter**:
    Es la carpeta principal que contiene todos los archivos relacionados con el proyecto.
 
-2. **Videos_Funcionamiento/**:
+2. **Videos_Funcionamiento**:
    Contiene los videos de ejemplo que se usarán para probar el funcionamiento del modelo y el sistema de seguimiento de aviones. Estos videos tienen nombres de `aviones_1.mp4` a `aviones_4.mp4`.
 
-3. **Videos_Prueba/**:
+3. **Videos_Prueba**:
    Contiene los videos de prueba, que también van de `aviones_1.mp4` a `aviones_4.mp4`. Pueden ser utilizados para evaluar y comparar el rendimiento del sistema en diferentes condiciones.
 
 4. **yolov8m.pt**:
